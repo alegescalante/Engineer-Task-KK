@@ -36,6 +36,26 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 <details>
 <summary>AWS</summary>  
   
+
+## Mis 100 días AWS
+* [x] [Día 1: Create Key Pair ](./Day01/Day01.md)
+* [x] [Día 2: Create Security Group](./Day02/Day02.md)
+* [] [Día 3: Deshabilitar acceso SSH directo como root](./Day03.md)
+- [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
+- [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
+- [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
+- [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
+- [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
+- [Día 9: Troubleshooting de MariaDB](./Day09_MariaDB_Troubleshooting/README.md)
+- [Día 10: Bash Scripts en Linux](./Day10_Linux_Bash_Scripts/README.md)
+- [Día 11: Instalar y configurar Tomcat Server](./Day11_Install_and_Configure_Tomcat_Server/README.md)
+- [Día 12: Servicios de red en Linux](./Day12_Linux_Network_Services/README.md)
+- [Día 13: Instalación y configuración de IPtables](./Day13_IPtables_Installation_And_Configuration/README.md)
+- [Día 14: Troubleshooting de procesos en Linux](./Day14_Linux_Process_Troubleshooting/README.md)
+- [Día 15: Configurar SSL para Nginx](./Day15_Setup_SSL_for_Nginx/README.md)
+- [Día 16: Instalación y configuración de Nginx como LBR (Load Balancer)](./Day16_Install_and_Configure_Nginx_as_an_LBR/README.md)
+- [Día 17: Instalación y configuración PostgreSQL](./Day17_Install_and_Configure_PostgreSQL/README.md)
+
 [AWS - Setting Up an EC2 Instance and CloudWatch Alarm](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/AWS/Setting_Up_an_EC2_Instance_and_CloudWatch_Alarm.md)   
 [AWS - Configuring an EC2 Instance as a Web Server with Nginx](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/AWS/Configuring_an_EC2_Instance_as_a_Web_Server_with_Nginx.md)
   
