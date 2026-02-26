@@ -30,3 +30,8 @@ az vm create \
   --storage-sku Standard_LRS \
   --os-disk-size-gb 30
 ```
+```
+az vm list -o table
+az vm list -d -o tabla
+ssh azureuser@ip
+```
