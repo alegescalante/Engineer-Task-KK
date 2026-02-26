@@ -39,11 +39,11 @@ https://github.com/vijayaramaraju-kalidindi/100-Days-Of-DevOps-Challenge-KodeKlo
   
 
 ## Mis 100 días AWS
-* [x] [Día 1: Create Key Pair ](./Day01/Day01.md)
-* [x] [Día 2: Create Security Group](./Day02/Day02.md)
-* [] [Día 3: Deshabilitar acceso SSH directo como root](./Day03.md)
-- [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
-- [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
+* [x] [Día 1: Create Key Pair ](./AWS-100-Day/Day01/Day01.md)
+* [x] [Día 2: Create Security Group](./AWS-100-Day/Day02/Day02.md)
+* [x] [Día 3: Create Subnet](./AWS-100-Day/Day03/Day03.md)
+- [Día 4: Permisos de ejecución para scripts](./AWS-100-Day/Day04/day04.md)
+- [Día 5: Instalación y configuración de SELinux](./AWS-100-Day/Day05_SElinux_Installation_and_Configuration/README.md)
 - [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
 - [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
 - [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
