@@ -65,6 +65,25 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 <details>
 <summary>AZURE</summary>  
   
+https://medium.com/@vijayramaraju.kalidindi/100-days-of-azure-cloud-day-1-3438602289b0
+* [x] [Day 1: Create SSH Key Pair for Azure Virtual Machine](./Day01/Day01.md)
+* [x] [Día 2: Create an Azure Virtual Machine](./Day02/Day02.md)
+* [] [Día 3: Deshabilitar acceso SSH directo como root](./Day03.md)
+- [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
+- [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
+- [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
+- [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
+- [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
+- [Día 9: Troubleshooting de MariaDB](./Day09_MariaDB_Troubleshooting/README.md)
+- [Día 10: Bash Scripts en Linux](./Day10_Linux_Bash_Scripts/README.md)
+- [Día 11: Instalar y configurar Tomcat Server](./Day11_Install_and_Configure_Tomcat_Server/README.md)
+- [Día 12: Servicios de red en Linux](./Day12_Linux_Network_Services/README.md)
+- [Día 13: Instalación y configuración de IPtables](./Day13_IPtables_Installation_And_Configuration/README.md)
+- [Día 14: Troubleshooting de procesos en Linux](./Day14_Linux_Process_Troubleshooting/README.md)
+- [Día 15: Configurar SSL para Nginx](./Day15_Setup_SSL_for_Nginx/README.md)
+- [Día 16: Instalación y configuración de Nginx como LBR (Load Balancer)](./Day16_Install_and_Configure_Nginx_as_an_LBR/README.md)
+- [Día 17: Instalación y configuración PostgreSQL](./Day17_Install_and_Configure_PostgreSQL/README.md)
+
 [AZURE - Create an Azure Virtual Machine](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Azure/Create_an_Azure_Virtual_Machine.md)  
 [AZURE - Create a Virtual Network (VNet) in Azure](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Azure/Create_a_Virtual_Network_in_Azure.md)  
 [AZURE - Add and Manage Tags for Azure Virtual Machines](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Azure/Add_and_Manage_Tags_for_Azure_Virtual_Machines.md)  
