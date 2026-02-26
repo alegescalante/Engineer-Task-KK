@@ -10,7 +10,7 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 <details>
 <summary>DevOps-100-Day</summary>  
   
-* [x] [Día 1: Creación de usuario Linux con shell no interactivo](./Devops-100-Day/Day01/Day1.md)
+* [x] [Día 1: Creación de usuario Linux con shell no interactivo](./Devops-100-Day/Day01/Day01.md)
 * [x] [Día 2: Usuario temporal con fecha de expiración](./Day02/Day02.md)
 * [x] [Día 3: Secure SSH Root Access](./Day03/Day03.md)
 - [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
