@@ -68,10 +68,10 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 <summary>TERRAFORM</summary>
 https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
 # Terraform
-* [x] [Dia 01:Create Key Pair Using Terraform](./Day01/Day01.md)
-* [x] [Dia 02:Create Security Group Using Terraform](./Day02/Day02.md)
-* [x] [Dia 03:Create_VPC_Using_Terraform](./Day03/Day03.md)
-
+[Dia 01:Create Key Pair Using Terraform](./Terraform/Day01/Day01.md)
+[Dia 02:Create Security Group Using Terraform](./Terraform/Day02/Day02.md)
+[Dia 03:Create_VPC_Using_Terraform](./Terraform/Day03/Day03.md)
+[Dia 04:Create_VPC_Using_Terraform](./Terraform/Day04/Day04.md)
   
 [TERRAFORM - Access Secrets Manager with IAM Role Using Terraform](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Terraform/Access_Secrets_Manager_with_IAM_Role_Using_Terraform.md)  
 [TERRAFORM - Associate Elastic IP with EC2 Instance Using Terraform](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Terraform/Associate_Elastic_IP_with_EC2_Instance_Using_Terraform.md)  
