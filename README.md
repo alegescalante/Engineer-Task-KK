@@ -6,6 +6,32 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 > This repository is intended for educational purposes only. It contains solutions and examples for various tasks related to KodeKloud Engineer training. The content is designed to help users to learn and apply this knowledge in practice.
 
 ### Tasks:  
+
+<details>
+<summary>DevOps-100-Day</summary>  
+  
+* [x] [Día 1: Creación de usuario Linux con shell no interactivo](./Day01/Day1.md)
+* [x] [Día 2: Usuario temporal con fecha de expiración](./Day02/Day02.md)
+* [x] [Día 3: Secure SSH Root Access](./Day03/Day03.md)
+- [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
+- [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
+- [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
+- [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
+- [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
+- [Día 9: Troubleshooting de MariaDB](./Day09_MariaDB_Troubleshooting/README.md)
+- [Día 10: Bash Scripts en Linux](./Day10_Linux_Bash_Scripts/README.md)
+- [Día 11: Instalar y configurar Tomcat Server](./Day11_Install_and_Configure_Tomcat_Server/README.md)
+- [Día 12: Servicios de red en Linux](./Day12_Linux_Network_Services/README.md)
+- [Día 13: Instalación y configuración de IPtables](./Day13_IPtables_Installation_And_Configuration/README.md)
+- [Día 14: Troubleshooting de procesos en Linux](./Day14_Linux_Process_Troubleshooting/README.md)
+- [Día 15: Configurar SSL para Nginx](./Day15_Setup_SSL_for_Nginx/README.md)
+- [Día 16: Instalación y configuración de Nginx como LBR (Load Balancer)](./Day16_Install_and_Configure_Nginx_as_an_LBR/README.md)
+- [Día 17: Instalación y configuración PostgreSQL](./Day17_Install_and_Configure_PostgreSQL/README.md)
+
+
+</details>
+
+***
 <details>
 <summary>ANSIBLE</summary>
   
