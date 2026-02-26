@@ -64,10 +64,9 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 
 
 ***
+https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
 <details>
 <summary>TERRAFORM</summary>
-https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
-# Terraform
 [Dia 01:Create Key Pair Using Terraform](./Terraform/Day01/Day01.md)
 [Dia 02:Create Security Group Using Terraform](./Terraform/Day02/Day02.md)
 [Dia 03:Create_VPC_Using_Terraform](./Terraform/Day03/Day03.md)
