@@ -6,14 +6,14 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/tree/main/Terraform
 > This repository is intended for educational purposes only. It contains solutions and examples for various tasks related to KodeKloud Engineer training. The content is designed to help users to learn and apply this knowledge in practice.
 
 ### Tasks:  
-DevOps-100-Day/Day01/Day01.md
+
 <details>
-<summary>DevOps-100-Day</summary>  
+<summary># DevOps-100-Day</summary>  
   
 * [x] [Día 1: Creación de usuario Linux con shell no interactivo](./DevOps-100-Day/Day01/Day01.md)
-* [x] [Día 2: Usuario temporal con fecha de expiración](./Day02/Day02.md)
-* [x] [Día 3: Secure SSH Root Access](./Day03/Day03.md)
-- [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
+* [x] [Día 2: Usuario temporal con fecha de expiración](./DevOps-100-Day/Day02/Day02.md)
+* [x] [Día 3: Secure SSH Root Access](./DevOps-100-Day/Day03/Day03.md)
+- [Día 4: Permisos de ejecución para scripts](./DevOps-100-Day/Day04_Script_Execution_Permissions/README.md)
 - [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
 - [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
 - [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
