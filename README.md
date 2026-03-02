@@ -121,7 +121,7 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
 <details>
 <summary>LINUX</summary>
   
-[LINUX -  Linux User Setup with Non-Interactive Shell](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_User_Setup_with_NonInteractive_Shell.md)  
+[Dia 1: Custom Apache User Setup](./Linux/Day01/Day01.md)  
 [LINUX - Add Response Headers in Apache](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Add_Response_Headers_in_Apache.md)  
 [LINUX - Apache Redirects](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Apache_Redirects.md)  
 [LINUX - Apache Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Apache_Troubleshooting.md)  
