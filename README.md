@@ -117,6 +117,64 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
 
 </details>  
 
+***
+<details>
+<summary>LINUX</summary>
+  
+[LINUX -  Linux User Setup with Non-Interactive Shell](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_User_Setup_with_NonInteractive_Shell.md)  
+[LINUX - Add Response Headers in Apache](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Add_Response_Headers_in_Apache.md)  
+[LINUX - Apache Redirects](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Apache_Redirects.md)  
+[LINUX - Apache Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Apache_Troubleshooting.md)  
+[LINUX - Bash scripts if/else statements](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Bash_scripts_if_else_statemetns.md)  
+[LINUX - Configure LAMP server](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Configure_LAMP_server.md)  
+[LINUX - Configure Local Yum](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Configure_Local_Yum_repos.md)  
+[LINUX - Configure Nginx + PHP-FPM Using Unix Sock](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Configure_Nginx-PHPFPM-Using-Unix-Sock.md)  
+[LINUX - Configure protected directories in Apache](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Configure_protected_directories_in_Apache.md)  
+[LINUX - Create a Cron Job](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Create_a-Cron_Job.md)  
+[LINUX - Cron schedule deny to users](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Cron_schedule_deny_to_users.md)  
+[LINUX - DNS Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/DNS_Troubleshooting.md)  
+[LINUX - Haproxy LBR Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Haproxy_LBR_Troubleshooting.md)  
+[LINUX - Install a package](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_a_package.md)   
+[LINUX - Install and Configure DB Server](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_DB_Server.md)  
+[LINUX - Install and Configure HaProxy LBR](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_HaProxy_LBR.md)  
+[LINUX - Install and Configure Nginx as an LBR](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_Nginx_as_an_LBR.md)  
+[LINUX - Install and Configure PHP-FPM](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_PHPFPM.md)  
+[LINUX - Install and Configure Postgre SQL](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_Postgre_SQL.md)  
+[LINUX - Install And Configure SFTP](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_And_Configure_SFTP.md)  
+[LINUX - Install and Configure Tomcat Server](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_Tomcat_Server.md)  
+[LINUX - Install and Configure Web Application](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Install_and_Configure_Web_Application.md)  
+[LINUX - IPtables Installation And Configuration](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/IPtables_Installation_And_Configuration.md)  
+[LINUX - Linux Banner](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Banner.md)  
+[LINUX - Linux Bash Scripts](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Bash_Scripts.md)  
+[LINUX - Linux Collaborative Directories](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Collaborative_Directories.md)  
+[LINUX - Linux Configure sudo](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Configure_sudo.md)  
+[LINUX - Linux Find Command](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Find_Command.md)  
+[LINUX - Linux Firewalld Rules](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Linux_Firewalld_Rules.md)  
+[LINUX - Linux Firewalld Setup](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Firewalld_Setup.md)  
+[LINUX - Linux GPG Encryption](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_GPG_Encryption.md)  
+[LINUX - Linux Log Rotate](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Log_Rotate.md)  
+[LINUX - Linux Network Services](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Network_Services.md)  
+[LINUX - Linux Nginx as Reverse Proxy](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Nginx_as_Reverse_Proxy.md)  
+[LINUX - Linux NTP Setup](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Linux_NTP_Setup.md)   
+[LINUX - Linux Postfix Mail Server](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Postfix_Mail_Server.md)  
+[LINUX - Linux Postfix Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Postfix_Troubleshooting.md)  
+[LINUX - Linux Process Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Process_Troubleshooting.md)  
+[LINUX - Linux Resource Limits](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Linux_Resource_Limits.md)  
+[LINUX - Linux Run Levels](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Linux_Run_Levels.md)  
+[LINUX - Linux Services](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_Services.md)  
+[LINUX - Linux SSH Authentication](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_SSH_Authentication.md)  
+[LINUX - Linux String Substitute (sed)](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Linux_String_Substitute.md)  
+[LINUX - Linux Time Zones Setting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Linux_Time_Zones_Setting.md)  
+[LINUX - Maria DB Troubleshooting](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Maria_DB_Troubleshooting.md)  
+[LINUX - PAM Authentication For Apache](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/PAM_Authentication_For_Apache.md)  
+[LINUX - Secure Root SSH Access](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Secure_Root_SSH_Access.md)  
+[LINUX - SElinux Installation and Configuration](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/SElinux_Installation_and_Configuration.md)  
+[LINUX - Selinux Installation](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Tasks/Selinux_Installation.md)  
+[LINUX - Setup SSL for Nginx](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Setup_SSL_for_Nginx.md)  
+[LINUX - Temporary User Setup with Expiry](https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/Linux/Temporary_User_Setup_with_Expiry.md)  
+
+</details>
+
 ###### End     
 [:arrow_up:](#tasks) 
 
