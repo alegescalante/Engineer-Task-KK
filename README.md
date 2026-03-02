@@ -70,7 +70,7 @@ https://medium.com/@vijayramaraju.kalidindi/100-days-of-azure-cloud-day-1-343860
 * [x] [Day 1: Create SSH Key Pair for Azure Virtual Machine](./Azure-100-Day/Day01/Day01.md)
 * [x] [Día 2: Create an Azure Virtual Machine](./Azure-100-Day/Day02/Day02.md)
 * [x] [Día 3: Create VM using Azure CLI](./Azure-100-Day/Day03/Day03.md)
-* [] [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
+* [x] [Día 4: Create a Virtual Network (VNet) in Azure](.//Azure-100-Day/Day04/Day04.md)
 * [] [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
 * [] [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
 * [] [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
