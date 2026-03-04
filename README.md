@@ -71,7 +71,7 @@ https://medium.com/@vijayramaraju.kalidindi/100-days-of-azure-cloud-day-1-343860
 * [x] [Día 2: Create an Azure Virtual Machine](./Azure-100-Day/Day02/Day02.md)
 * [x] [Día 3: Create VM using Azure CLI](./Azure-100-Day/Day03/Day03.md)
 * [x] [Día 4: Create a Virtual Network (VNet) in Azure](./Azure-100-Day/Day04/Day04.md)
-* [] [Día 5: Create a Virtual Network (IPv4) in Azure](./Azure-100-Day/Day05/Day05.md)
+* [x] [Día 5: Create a Virtual Network (IPv4) in Azure](./Azure-100-Day/Day05/Day05.md)
 * [] [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
 * [] [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
 * [] [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
