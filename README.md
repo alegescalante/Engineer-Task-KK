@@ -43,7 +43,7 @@ https://github.com/vijayaramaraju-kalidindi/100-Days-Of-DevOps-Challenge-KodeKlo
 * [x] [Día 2: Create Security Group](./AWS-100-Day/Day02/Day02.md)
 * [x] [Día 3: Create Subnet](./AWS-100-Day/Day03/Day03.md)
 * [x] [Día 4: Enable Versioning for S3 Bucket](./AWS-100-Day/Day04/day04.md)
-- [Día 5: Instalación y configuración de SELinux](./AWS-100-Day/Day05_SElinux_Installation_and_Configuration/README.md)
+* [x] [Día 5: Create GP3 Volume](./AWS-100-Day/Day05/day05.md)
 - [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
 - [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
 - [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
