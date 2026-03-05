@@ -61,3 +61,34 @@ Notas Importantes
 * Grupo de Recursos: Debes tener un grupo de recursos creado previamente con az group create.
 * Direcciones Reservadas: Ten en cuenta que Azure reserva 5 direcciones IP en cada subred para uso interno (la primera, la última y tres de gestión).
 * Subredes Adicionales: Si necesitas agregar más subredes después de crear la VNet, usa el comando az network vnet subnet create
+  
+## Listar subred-subnet
+Para listar las subredes dentro de una red virtual (VNet) específica en Azure mediante la CLI, el comando principal es az network vnet subnet list. 
+
+Comandos para listar subredes
+Listado básico en formato de tabla:
+Muestra el nombre de la subred, el prefijo de dirección y el estado de aprovisionamiento de forma legible.
+```bash
+az network vnet subnet list \
+  --resource-group <NombreGrupo> \
+  --vnet-name <NombreVNet> \
+  --output table
+```
+
+Listar solo nombres y rangos de IP:
+Si solo necesitás ver qué segmentos de red están ocupados, podés filtrar la salida:
+```bash
+az network vnet subnet list \
+  --resource-group <NombreGrupo> \
+  --vnet-name <NombreVNet> \
+  --query "[].{SubnetName:name, CIDR:addressPrefix}" \
+  --output table
+```
+
+Otras consultas de utilidad
+* Ver detalles de una subred específica:
+   Para obtener toda la configuración (como NSGs o tablas de rutas asociadas), usá:
+   az network vnet subnet show -g <NombreGrupo> --vnet-name <NombreVNet> -n <NombreSubred>
+* Listar IPs disponibles en la subred:
+   Si necesitás saber qué direcciones IP están libres para asignar, podés usar este comando (actualmente en vista previa):
+   az network vnet subnet list-available-ips -g <NombreGrupo> --vnet-name <NombreVNet> -n <NombreSubred>
