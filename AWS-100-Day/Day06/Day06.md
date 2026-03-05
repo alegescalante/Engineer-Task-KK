@@ -160,26 +160,24 @@ Puedes combinar filtros para encontrar instancias específicas por sus atributos
 * Por tipo de instancia: ... --filters "Name=instance-type,Values=t2.micro". 
 
 Notas importantes
-1- Regiones: Los resultados son específicos de la región configurada. Para ver instancias en otra región, añade --region nombre-region (ej. --region us-west-2).
-2- Paginación: Si tienes muchas instancias, la CLI usará un paginador. Puedes desactivarlo con --no-cli-pager si prefieres ver todo de una vez. 
+1. Regiones: Los resultados son específicos de la región configurada. Para ver instancias en otra región, añade --region nombre-region (ej. --region us-west-2).
+2. Paginación: Si tienes muchas instancias, la CLI usará un paginador. Puedes desactivarlo con --no-cli-pager si prefieres ver todo de una vez. 
 
 
 # Listar Security Groups
 
 Para listar los grupos de seguridad (Security Groups) en AWS mediante la interfaz de línea de comandos (CLI), se utiliza el comando describe-security-groups. 
-Amazon AWS Documentation
-Amazon AWS Documentation
- +1
+
 Comandos principales para listar Security Groups
 Listado completo (JSON): Muestra todos los detalles, incluyendo las reglas de entrada y salida de cada grupo en la región configurada.
-bash
+```bash
 aws ec2 describe-security-groups
-Usa el código con precaución.
+```
 
 Listado resumido en tabla: Ideal para ver rápidamente el ID, el nombre y la VPC asociada.
-bash
+```bash
 aws ec2 describe-security-groups --query 'SecurityGroups[*].{Name:GroupName,ID:GroupId,VPC:VpcId}' --output table
-Usa el código con precaución.
+```
 
 Listar por ID específico: Si solo quieres los detalles de uno o varios grupos concretos.
 bash
@@ -187,57 +185,46 @@ aws ec2 describe-security-groups --group-ids sg-0123456789abcdef0
 Usa el código con precaución.
 
 Filtrar por VPC: Útil para ver solo los grupos de seguridad que pertenecen a una red específica.
-bash
+```bash
 aws ec2 describe-security-groups --filters "Name=vpc-id,Values=vpc-0123456789abcdef0"
-Usa el código con precaución.
+```
 
- 
-Amazon AWS Documentation
-Amazon AWS Documentation
- +5
 Otras consultas útiles
 Obtener solo los IDs: Útil para automatización o scripts.
-bash
+```bash
 aws ec2 describe-security-groups --query 'SecurityGroups[*].GroupId' --output text
-Usa el código con precaución.
+```
 
 Ver reglas específicas: Si necesitas auditar qué grupos permiten acceso por un puerto específico (ej. puerto 22 para SSH).
-bash
+```bash
 aws ec2 describe-security-groups --filters "Name=ip-permission.from-port,Values=22" --query 'SecurityGroups[*].GroupName'
-Usa el código con precaución.
+```
 
- 
-Amazon AWS Documentation
-Amazon AWS Documentation
- +3
 Recuerda que, al igual que otros recursos de EC2, los grupos de seguridad son específicos de la región; si no aparecen, verifica que estás en la región correcta o añade el parámetro --region
 
 # Listar Subredes
 Para listar las subredes (subnets) en tu cuenta de AWS mediante la CLI, el comando principal es describe-subnets. Al igual que con otros recursos, puedes ver la información completa o filtrar los datos para mayor claridad. 
-Amazon AWS Documentation
-Amazon AWS Documentation
+
 Comandos principales para listar subredes
 Listado completo (JSON): Muestra todos los detalles técnicos de cada subred (ID de VPC, bloque CIDR, zona de disponibilidad, etc.).
-bash
+```bash
 aws ec2 describe-subnets
-Usa el código con precaución.
+```
 
 Listado resumido en tabla: Ideal para identificar rápidamente el ID de la subred, su rango de IPs y a qué VPC pertenece.
-bash
+```bash
 aws ec2 describe-subnets --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock,VPC:VpcId,AZ:AvailabilityZone}' --output table
-Usa el código con precaución.
+```
 
 Filtrar por una VPC específica: Si solo te interesan las subredes de una red en particular.
-bash
+```bash
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-0123456789abcdef0"
-Usa el código con precaución.
+```
 
 Listar por nombre (Tag Name): Útil si has etiquetado tus subredes (ej. "Public-Subnet").
-bash
+```bash
 aws ec2 describe-subnets --filters "Name=tag:Name,Values=MiSubred"
-Usa el código con precaución.
-
- 
+```
 
 Datos clave que verás en los resultados
 1. SubnetId: El identificador necesario para lanzar instancias EC2.
