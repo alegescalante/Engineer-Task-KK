@@ -14,5 +14,13 @@ resource "aws_eip" "xfusion-eip" {
       }
 }
 ```
+
+Comandos principales de AWS CLI
+Listar todas las VPC: Ejecutá el siguiente comando para obtener los detalles de todas las VPC en tu región configurada:
+aws ec2 describe-vpcs
+Listar con un formato legible (Tabla): Para ver la información de forma más ordenada en tu terminal:
+aws ec2 describe-vpcs --output table
+Filtrar por una VPC específica: Si conocés el ID de la VPC:
+aws ec2 describe-vpcs --vpc-ids vpc-0e9801d129EXAMPLE
 [reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip#tags-1)  
 [back](https://github.com/alegescalante/Engineer-Task-KK/tree/main)  
