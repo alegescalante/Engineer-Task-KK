@@ -68,49 +68,38 @@ It will create .ssh directory for each app server if doesn't exist then copy pas
 # ejemplo
 
 La forma más rápida y recomendada de copiar tu clave pública a un servidor remoto es utilizando el comando ssh-copy-id. 
-Medium
-Medium
- +1
+
 Aquí tenés las tres formas principales de hacerlo:
 1. El método automático (Recomendado)
 Este comando busca automáticamente tu clave pública en la carpeta por defecto y la instala en el archivo authorized_keys del servidor. 
-SSH Communications Security
-SSH Communications Security
- +1
-bash
+
+```bash
 ssh-copy-id usuario@ip-del-servidor
-Usa el código con precaución.
+```
+
 
 Nota: Te pedirá la contraseña del usuario remoto por única vez para realizar la copia. 
-Egghead.io
-Egghead.io
- +1
+
 2. Si tenés varias claves (Especificar archivo)
 Si generaste una clave con un nombre personalizado (por ejemplo, mi_clave), usá el parámetro -i: 
-Unix & Linux Stack Exchange
-Unix & Linux Stack Exchange
- +1
-bash
+
+```bash
 ssh-copy-id -i ~/.ssh/mi_clave.pub usuario@ip-del-servidor
-Usa el código con precaución.
+```
 
 3. El método manual (Si no tenés ssh-copy-id)
 Si estás en un sistema que no tiene la utilidad instalada (como algunas versiones de Windows o entornos muy mínimos), podés usar este comando que hace lo mismo mediante una conexión SSH: 
-Oracle Help Center
-Oracle Help Center
- +2
-bash
+
+```bash
 cat ~/.ssh/id_rsa.pub | ssh usuario@ip-del-servidor "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
-Usa el código con precaución.
+```
 
 Verificación final
 Una vez copiada, intentá entrar al servidor. Ya no debería pedirte contraseña: 
-YouTube
-YouTube
- +1
-bash
-ssh usuario@ip-del-servidor
 
+```bash
+ssh usuario@ip-del-servidor
+```
 ## Good to Know?
 
 ### SSH Key Authentication
