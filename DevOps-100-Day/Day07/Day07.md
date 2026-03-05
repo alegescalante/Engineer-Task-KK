@@ -14,7 +14,39 @@ Set up a password-less authentication from user thor on jump host to all app ser
 
     It will generate an ssh pub key and private key. We are going to share the pub key to all the app server for respective users.
 
-2. Login into each app server and run the following command:
+# ejemplo
+```bash
+$ ssh-keygen -t rsa -b 2048
+Generating public/private rsa key pair.
+
+# 1. Elegir dónde guardarla (Enter para la ruta por defecto)
+Enter file in which to save the key (/home/usuario/.ssh/id_rsa): 
+
+# 2. Ponerle una contraseña (opcional, podés dar Enter para dejarla en blanco)
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+
+# 3. Confirmación de creación
+Your identification has been saved in /home/usuario/.ssh/id_rsa
+Your public key has been saved in /home/usuario/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:7mN6eXp8Q9zR/S2vB1aY0dF4gH3jK5lM7nO9pQ1rS3u usuario@nombre-pc
+The key's randomart image is:
++---[RSA 2048]----+
+
+|      .o.        |
+|     .o.o        |
+|    . .o..       |
+|   . o .o .      |
+|    o . S. .     |
+|   . o o.o+ .    |
+|    . o.==o+     |
+|     . *=*B=o    |
+|      +E*OBB.    |
++----[SHA256]-----+
+```
+
+1. Login into each app server and run the following command:
 
     ```sh
     mkdir -p .ssh
