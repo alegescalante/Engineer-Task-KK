@@ -22,5 +22,17 @@ Listar con un formato legible (Tabla): Para ver la información de forma más or
 aws ec2 describe-vpcs --output table
 Filtrar por una VPC específica: Si conocés el ID de la VPC:
 aws ec2 describe-vpcs --vpc-ids vpc-0e9801d129EXAMPLE
+
+Para listar las Elastic IP (EIP) asociadas a tu cuenta en AWS mediante la CLI, el comando principal es describe-addresses. 
+Amazon AWS Documentation
+Amazon AWS Documentation
+ +1
+Comandos principales
+Listar todas las Elastic IP: Muestra los detalles de todas las direcciones reservadas en la región actual:
+aws ec2 describe-addresses
+Formato de tabla: Para una lectura rápida de las IPs y sus asociaciones:
+aws ec2 describe-addresses --output table
+Filtrar por una IP específica:
+aws ec2 describe-addresses --public-ips 1.2.3.4
 [reference](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip#tags-1)  
 [back](https://github.com/alegescalante/Engineer-Task-KK/tree/main)  
