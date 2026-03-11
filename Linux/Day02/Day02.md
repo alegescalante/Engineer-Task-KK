@@ -10,6 +10,35 @@ Creación del Grupo: Utiliza el comando groupadd seguido del nombre del grupo es
 ```bash
 sudo groupadd <nombre_del_grupo>
 ```
+listar grupos
+```bash
+cat /etc/group
+```
+Listar solo los nombres de los grupos:
+bash
+cut -d: -f1 /etc/group
+Listar grupos del usuario actual:
+bash
+groups
+Listar grupos de un usuario específico:
+bash
+groups nombre_usuario
+Listar todos los grupos de forma ordenada:
+bash
+getent group
+Ver los grupos y su ID (incluyendo grupos primarios y secundarios) del usuario actual:
+bash
+id -nG
+ 
+Tecnocratica
+Tecnocratica
+ +4
+Detalles de la información
+Al listar, los grupos suelen mostrarse con este formato:
+Nombre del grupo: Ejemplo: sudo.
+Contraseña: Generalmente x (indicando que la contraseña real está en /etc/gshadow).
+GID (Group ID): El número de identificación único.
+Miembros: Una lista de usuarios separados por comas que pertenecen al grupo. 
 
 Creación o Verificación del Usuario: Si el usuario solicitado no existe, créalo con useradd. Si ya existe, puedes saltar este paso.
 ```bash
