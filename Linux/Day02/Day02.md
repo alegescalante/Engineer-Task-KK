@@ -15,24 +15,25 @@ listar grupos
 cat /etc/group
 ```
 Listar solo los nombres de los grupos:
-bash
+```bash
 cut -d: -f1 /etc/group
+```
 Listar grupos del usuario actual:
-bash
+```bash
 groups
+```
 Listar grupos de un usuario específico:
-bash
+```bash
 groups nombre_usuario
+```
 Listar todos los grupos de forma ordenada:
-bash
+```bash
 getent group
+```
 Ver los grupos y su ID (incluyendo grupos primarios y secundarios) del usuario actual:
-bash
+```bash
 id -nG
- 
-Tecnocratica
-Tecnocratica
- +4
+``` 
 Detalles de la información
 Al listar, los grupos suelen mostrarse con este formato:
 Nombre del grupo: Ejemplo: sudo.
