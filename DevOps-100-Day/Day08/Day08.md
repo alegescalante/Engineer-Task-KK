@@ -12,6 +12,29 @@ To install run the following command on the jump host server:
 sudo pip3 install ansible==4.8.0
 ```
 
+Para verificar la instalación de Ansible, ejecuta 
+```bash
+ansible --version
+```
+En tu terminal para confirmar la versión y ruta. 
+Para asegurar que funciona, prueba la conectividad local con 
+```bash
+ansible localhost -m ping
+```
+lo que debería devolver un mensaje "ping": "pong". 
+También puedes listar colecciones con 
+```bash
+ansible-galaxy collection list
+```
+
+Pasos detallados de verificación:
+Verificar Versión: Ejecuta ansible --version. Esto muestra la versión instalada, la ubicación del archivo de configuración y la versión de Python, confirmando que el binario está en tu PATH.
+Probar Conectividad (Ping): Usa ansible all -m ping -u root (o tu usuario) para verificar que el nodo de control puede comunicarse.
+Probar con Localhost: Ejecuta ansible localhost -m ping para una prueba rápida sin configurar nodos remotos.
+Verificar Módulos: Puedes usar ansible-doc -l para listar todos los módulos disponibles y asegurar que la instalación está completa. 
+
+Si ansible --version no funciona, es posible que necesites instalarlo con sudo apt install ansible (Debian/Ubuntu) o sudo dnf install ansible (Fedora/RHEL
+
 ## Good to Know?
 
 ### Ansible Fundamentals
