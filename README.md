@@ -18,7 +18,7 @@ https://github.com/vijayaramaraju-kalidindi/100-Days-Of-DevOps-Challenge-KodeKlo
 * [x] [Día 5: SElinux Installation and Configuration](././DevOps-100-Day/Day05/Day05.md)
 * [x] [Día 6: Setup a Cron Job](./DevOps-100-Day/Day06/Day06.md)
 * [x] [Día 7: Linux SSH Authentication](./DevOps-100-Day/Day07/Day07.md)
-- [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
+* [x] [Día 8: Instalar Ansible](./DevOps-100-Day/Day08/Day08.md)
 - [Día 9: Troubleshooting de MariaDB](./Day09_MariaDB_Troubleshooting/README.md)
 - [Día 10: Bash Scripts en Linux](./Day10_Linux_Bash_Scripts/README.md)
 - [Día 11: Instalar y configurar Tomcat Server](./Day11_Install_and_Configure_Tomcat_Server/README.md)
