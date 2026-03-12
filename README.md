@@ -114,7 +114,8 @@ https://github.com/MederD/Kodekloud-Engineer-Tasks/blob/main/README.md?plain=1
 * [x] [Dia 04:Create VPC with CIDR Using Terraform](./Terraform/Day04/Day04.md)
 * [x] [Dia 05:Create VPC with IPv6 Using Terraform](./Terraform/Day05/Day05.md)
 * [x] [Dia 06:Create Elastic IP Using Terraform](./Terraform/Day06/Day06.md)
-
+* [x] [Dia 07:Create EC2 Instance Using Terraform](./Terraform/Day07/Day07.md)
+* [ ] 
 </details>  
 
 ***
