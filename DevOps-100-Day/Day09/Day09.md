@@ -79,7 +79,11 @@ We have to consider few things:
     ```sh
     systemctl restart mariadb
     ```
-
+Corregir el propietario: Asegurate de que el usuario mysql sea el dueño de todo el contenido.
+```bash
+sudo chown -R mysql:mysql /var/lib/mysql
+sudo chmod -R 700 /var/lib/mysql
+```
 ## Good to Know?
 
 ### MariaDB Troubleshooting
