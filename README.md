@@ -45,7 +45,7 @@ https://github.com/vijayaramaraju-kalidindi/100-Days-Of-DevOps-Challenge-KodeKlo
 * [x] [Día 4: Enable Versioning for S3 Bucket](./AWS-100-Day/Day04/Day04.md)
 * [x] [Día 5: Create GP3 Volume](./AWS-100-Day/Day05/Day05.md)
 * [x] [Día 6: Launch EC2 Instance](./AWS-100-Day/Day06/Day06.md)
-- [Día 7: Autenticación SSH sin contraseña](./Day07_Linux_SSH_Authentication/README.md)
+* [x] [Día 7: Change EC2 Instance Type](./AWS-100-Day/Day07/Day07.md)
 - [Día 8: Instalar Ansible](./Day08_Install_Ansible/README.md)
 - [Día 9: Troubleshooting de MariaDB](./Day09_MariaDB_Troubleshooting/README.md)
 - [Día 10: Bash Scripts en Linux](./Day10_Linux_Bash_Scripts/README.md)
