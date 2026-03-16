@@ -10,8 +10,17 @@ The production support team of `xFusionCorp Industries` is working on developing
 ## Steps
 
 1. Login into app server 3 and generate ssh-key:
-2. Copy ssh-pub key to backup server. Follow [day 07](./007.md) to complete these two steps
-3. Write the following script in `/scripts/beta_backup.sh`:
+2. Generating public/private rsa key pair.
+   ```bash
+   ssh-keygen -t rsa -b 2048
+   ```
+3. Copiar clave
+   ```bash
+   ssh-copy-id user@host
+   ```
+
+4. Copy ssh-pub key to backup server. Follow [day 07](./007.md) to complete these two steps
+5. Write the following script in `/scripts/beta_backup.sh`:
 
     ```sh
     #!/bin/sh
@@ -20,7 +29,7 @@ The production support team of `xFusionCorp Industries` is working on developing
     scp /backup/xfusioncorp_beta.zip clint@stbkp01:/backup/
     ```
 
-4. Give the execute permission:
+6. Give the execute permission:
 
     ```sh
     chmod +x /scripts/beta_backup.sh
