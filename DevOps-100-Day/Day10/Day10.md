@@ -64,3 +64,40 @@ The production support team of `xFusionCorp Industries` is working on developing
 - **rsync**: Efficient synchronization tool
 - **sftp**: Interactive file transfer
 - **Authentication**: Use SSH keys for automation
+
+# Otro Metodo
+Script: /scripts/official_backup.sh
+```bash
+bash
+#!/bin/bash
+
+# 1. Definir variables para rutas y nombres
+SOURCE_DIR="/var/www/html/official"
+BACKUP_DIR="/backup"
+ZIP_NAME="xfusioncorp_official.zip"
+STORAGE_SERVER="ststor01" # Reemplazar con el hostname o IP del Nautilus Storage Server
+STORAGE_USER="natasha"    # Reemplazar con el usuario correspondiente del Storage Server
+
+# a y b. Crear el archivo zip en el directorio /backup local
+zip -r "${BACKUP_DIR}/${ZIP_NAME}" "${SOURCE_DIR}"
+
+# c y d. Copiar el archivo al Nautilus Storage Server (sin pedir contraseña)
+scp "${BACKUP_DIR}/${ZIP_NAME}" "${STORAGE_USER}@${STORAGE_SERVER}:${BACKUP_DIR}/"
+```
+
+# Pasos previos necesarios (Fuera del script):
+Instalar zip:
+```bash
+sudo yum install -y zip (o apt-get según el SO).
+```
+Configurar SSH sin contraseña:
+Generá la clave con ssh-keygen (si no existe) y copiala al servidor de almacenamiento con:
+```bash
+ssh-copy-id usuario@servidor-storage
+```
+Permisos del script:
+Asegurate de que el usuario pueda ejecutarlo:
+
+```bash
+chmod +x /scripts/official_backup.sh
+```
